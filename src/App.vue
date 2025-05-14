@@ -1,6 +1,7 @@
 <script setup>
 import HeaderNavBar from './components/HeaderNavBar.vue'
 import MainSwiper from './components/MainSwiper.vue'
+import TradingViewSwiper from "@/components/TradingViewSwiper.vue";
 </script>
 
 <template>
@@ -11,7 +12,8 @@ import MainSwiper from './components/MainSwiper.vue'
   </header>
 
   <main>
-    <MainSwiper />
+<!--    <MainSwiper />-->
+    <TradingViewSwiper />
   </main>
 
   <footer>
